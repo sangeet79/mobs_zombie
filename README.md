@@ -6,3 +6,9 @@ Initial code was taken from: https://forum.minetest.net/viewtopic.php?f=11&t=991
 Made some cosmetic changes to suit my needs. 
 
 Requires mobs_redo to run.
+
+Skin credits:
+
+http://minetest.fensta.bplaced.net/skins/5/1158.png
+
+author: Oscar
