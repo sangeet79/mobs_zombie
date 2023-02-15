@@ -5,6 +5,8 @@ mobs:register_mob("zombie:zombie", {
 	type = "monster",
 	passive = false,
 	attack_type = "dogfight",
+	pathfinding = true,
+	reach = 2,
 	damage = 3,
 	hp_min = 12,
 	hp_max = 35,
@@ -27,7 +29,7 @@ mobs:register_mob("zombie:zombie", {
 	run_velocity = 1.5,
 	jump = true,
 	floats = 0,
-	view_range = 10,
+	view_range = 15,
 	drops = {
 		{name = "zombie:rotten_flesh",
 		chance = 2, min = 3, max = 5,},
@@ -40,7 +42,7 @@ mobs:register_mob("zombie:zombie", {
 		stand_start = 0,		stand_end = 79,
 		walk_start = 168,		walk_end = 188,
 		run_start = 168,		run_end = 188,
---		punch_start = 168,		punch_end = 188,
+		punch_start = 168,		punch_end = 188,
 	},
 })
 
@@ -53,10 +55,10 @@ mobs:spawn_specific(
 --[[           interval]] 10,
 --[[             chance]] 3,
 --[[active_object_count]] 1,
---[[         min_height]] -30911,
---[[         max_height]] 30911)
+--[[         min_height]] -24000,
+--[[         max_height]] 1000)
 
-mobs:register_egg("zombie:zombie", "Zombie", "zombie_head.png", 0)
+mobs:register_egg("zombie:zombie", "Zombie", "wool_cyan.png", 1)
 
 minetest.register_craftitem("zombie:rotten_flesh", {
 	description = "Rotten Flesh",
