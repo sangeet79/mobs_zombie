@@ -9,6 +9,6 @@ Requires mobs_redo to run.
 
 Skin credits:
 
-http://minetest.fensta.bplaced.net/#id=2007
+http://minetest.fensta.bplaced.net/#id=1158
 
 author: Oscar
