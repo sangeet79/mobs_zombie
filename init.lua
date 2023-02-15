@@ -52,8 +52,8 @@ mobs:spawn_specific(
 --[[          neighbors]] "air",
 --[[          min_light]] 0,
 --[[          max_light]] 5,
---[[           interval]] 10,
---[[             chance]] 3,
+--[[           interval]] 20,
+--[[             chance]] 7000,
 --[[active_object_count]] 1,
 --[[         min_height]] -24000,
 --[[         max_height]] 1000)
